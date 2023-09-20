@@ -1,0 +1,169 @@
+/*SECTION*/
+.topbar {
+  position: absolute;
+  z-index: 7777;
+  mix-blend-mode: difference;
+  transition: .5s;
+}
+
+.down {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 6666;
+  transition: .1s;
+  /*background-image: url("img/social/down-1080p.gif");*/
+  background-repeat: no-repeat;
+  background-position: center 70%;
+  background-attachment: fixed;
+  mix-blend-mode: difference;
+}
+
+.intro-1 {
+  position: absolute;
+  left: 0;
+  bottom: -90vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.intro-2 {
+  position: absolute;
+  left: 0;
+  bottom: -240vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.intro-3 {
+  position: absolute;
+  left: 0;
+  bottom: -485vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.intro-4 {
+  position: absolute;
+  left: 0;
+  bottom: -590vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.roadmap-1 {
+  position: absolute;
+  left: 0;
+  bottom: -790vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.roadmap-2 {
+  position: absolute;
+  left: 0;
+  bottom: -990vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.roadmap-3 {
+  position: absolute;
+  left: 0;
+  bottom: -1190vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.roadmap-4 {
+  position: absolute;
+  left: 0;
+  bottom: -1390vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.roadmap-5 {
+  position: absolute;
+  left: 0;
+  bottom: -1590vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.m00m-1 {
+  position: absolute;
+  left: 0;
+  bottom: -1790vh;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+}
+
+.m00m-6 {
+  position: absolute;
+  left: 0;
+  bottom: -2030vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+#intro-1 {
+  position: absolute;
+  bottom: -50vh;
+}
+
+#intro-2 {
+  position: absolute;
+  bottom: -295vh;
+}
+
+#intro-3 {
+  position: absolute;
+  bottom: -400vh;
+}
+
+#intro-4 {
+  position: absolute;
+  bottom: -600vh;
+}
+
+#roadmap-1 {
+  position: absolute;
+  bottom: -800vh;
+}
+
+#roadmap-2 {
+  position: absolute;
+  bottom: -1000vh;
+}
+
+#roadmap-3 {
+  position: absolute;
+  bottom: -1200vh;
+}
+
+#roadmap-4 {
+  position: absolute;
+  bottom: -1400vh;
+}
+
+#roadmap-5 {
+  position: absolute;
+  bottom: -1600vh;
+}
+
+#m00m-1 {
+  position: absolute;
+  bottom: -1840vh;
+}
+
+#m00m-5 {
+  position: absolute;
+  bottom: -1950vh;
+}
+
+#m00m-6 {
+  position: absolute;
+  bottom: -2148vh;
+}

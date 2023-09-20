@@ -1,0 +1,170 @@
+html {
+  /*height: 100vh;*/
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  z-index: 8888;
+  width: 70%;
+  margin-left: 15%;
+/*  background-color: black;*/
+}
+
+body {
+  /*height: 2240vh;*/
+  background: #000;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-image: url("loading.gif");
+  background-repeat: no-repeat;
+  background-position: center 40vh;
+}
+
+canvas {
+  position: fixed;
+  left: 50%;
+  top: 51%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  max-height: 100vh;
+  scroll-behavior: smooth;
+  z-index: 2222;
+}
+
+h1 {
+  margin-right: 19%;
+  color: #0F0;
+  text-decoration: none;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 30px;
+}
+
+h2 {
+  margin-right: 19%;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+h3 {
+  color: #f41885;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 10px;
+  margin-left: 15%;
+}
+
+a {
+  margin-right: 18%;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #f41885;
+}
+
+.social-home {
+  position: absolute;
+  z-index: 9999;
+  left: 0;
+  bottom: -2140vh;
+  width: 100%;
+}
+
+.social-home img {
+  width: 50px;
+}
+
+.footer-home {
+  position: absolute;
+  z-index: 9999;
+  left: 0;
+  bottom: -2146vh;
+  width: 100%;
+}
+
+.social-engage {
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 10px;
+  margin-left: 15%;*/
+}
+
+.social-engage img {
+  /*width: 550%;
+  max-width: 50px;*/
+  width: 50px;
+  position: relative;
+  z-index: 5555;
+  bottom: 1.65vh;
+}
+
+.footer-engage {
+  position: relative;
+  z-index: 9999;
+  left: 0;
+  bottom: 0vh;
+  width: 100%;
+}
+
+.social img {
+  width: 50px;
+  position: fixed;
+  z-index: 9999;
+  bottom: 10vh;
+  margin-left: -2vw;
+}
+
+.footer {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  bottom: 0vh;
+  width: 100%;
+}
+
+.coming-soon img {
+  position: fixed;
+  z-index: 2222;
+  width: 30vw;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.dash img {
+  position: fixed;
+  z-index: 10000;
+  width: 100vw;
+  height: 100vh;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+.footer-button {
+  padding: 0 30%;
+}
+
+.footer-button img {
+  width: 50px;
+  position: relative;
+  z-index: 5555;
+  bottom: 1.65vh;
+}
